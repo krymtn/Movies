@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs'
+platform :ios, '8.0'
+target 'RfbMovies' do
+    pod 'JSONModel'
+    pod 'HexColors'
+    pod 'ObjectiveSugar'
+    pod 'SDVersion'
+    pod 'IQKeyboardManager'
+    pod 'Realm'
+    pod 'AFNetworking'
+    pod 'PAPreferences'
+    pod 'DateTools'
+    pod 'SDWebImage'
+    pod 'DeviceUtil'
+end
