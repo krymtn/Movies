@@ -14,8 +14,6 @@
 
 - (NSDate*)dateWithFormat:(NSString*)format;
 
-- (NSString*)zst_regexForTurkishLettersWithCaseSensitive:(BOOL)caseSensitive;
-
-- (NSString*)extractYoutubeIdFromLink;
+- (NSString *)urlencode;
 
 @end

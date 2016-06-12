@@ -8,6 +8,13 @@
 
 #import <JSONModel/JSONModel.h>
 
+@protocol JMMovieIDs @end
+
 @interface JMMovieIDs : JSONModel
+
+@property(nonatomic,strong) NSString *imdb;
+@property(nonatomic,strong) NSString *slug;
+@property(nonatomic,strong) NSString *tmdb;
+@property(nonatomic,strong) NSString *trakt;
 
 @end

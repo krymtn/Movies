@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AFNetworkActivityIndicatorManager.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +19,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    /**
+     *  Set API configuration
+     */
     [APIRequest setBaseURL:DEV_API_URL];
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+    NSLog(@"App delegate");
     
     return YES;
 }

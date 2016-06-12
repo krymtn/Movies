@@ -10,4 +10,5 @@
 
 @interface RfbSearchMoviesVC : UIViewController
 
+- (void)searchMovies:(NSString*)query withSearchPage:(NSInteger)page isPaging:(bool)paging;
 @end

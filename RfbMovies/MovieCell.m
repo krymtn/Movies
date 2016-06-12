@@ -15,6 +15,16 @@
     // Initialization code
 }
 
+- (void)setPopularMovie:(JMPopularMovie *)popularMovie
+{
+    self.lblTitle.text = popularMovie.title;
+    self.lblYear.text  = popularMovie.year;
+    
+    NSURL *posterURL = [NSURL URLWithString:popularMovie.images.poster.thumb];
+    [self.imgPoster sd_setImageWithURL:posterURL placeholderImage:[UIImage imageNamed:@""]];
+    
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

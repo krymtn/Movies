@@ -15,6 +15,12 @@
     // Initialization code
 }
 
+- (void)setSearchMovie:(JMSearchMovie *)searchMovie
+{
+    self.lblTitle.text = searchMovie.movie.title;
+    self.lblYear.text  = searchMovie.movie.year;
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

@@ -7,7 +7,12 @@
 //
 
 #import <JSONModel/JSONModel.h>
+#import "JMPopularMovie.h"
 
 @interface JMSearchMovie : JSONModel
+
+@property(nonatomic,strong) JMPopularMovie *movie;
+@property(nonatomic,strong) NSString *score;
+@property(nonatomic,strong) NSString *type;
 
 @end

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21B314BCCAA31405DDF2530E /* Pods_RfbMovies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEC057BE89D91850BC1123F /* Pods_RfbMovies.framework */; };
+		260345EE1D08C80800441C54 /* RfbMovieService.m in Sources */ = {isa = PBXBuildFile; fileRef = 260345ED1D08C80800441C54 /* RfbMovieService.m */; };
+		260B83711D0D675B0035194B /* RfbSearchMoviesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B83701D0D675B0035194B /* RfbSearchMoviesVC.m */; };
+		260B83761D0D67860035194B /* SearchMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B83751D0D67860035194B /* SearchMovieCell.m */; };
+		260B83801D0D6E870035194B /* JMSearchMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B837F1D0D6E870035194B /* JMSearchMovie.m */; };
+		260B83841D0D6F390035194B /* RfbMoviesRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B83831D0D6F390035194B /* RfbMoviesRootVC.m */; };
 		267BE9781D060BF4003DCCE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BE9771D060BF4003DCCE4 /* main.m */; };
 		267BE97B1D060BF4003DCCE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BE97A1D060BF4003DCCE4 /* AppDelegate.m */; };
 		267BE9811D060BF4003DCCE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267BE97F1D060BF4003DCCE4 /* Main.storyboard */; };
@@ -15,12 +21,20 @@
 		267BE9891D060BF4003DCCE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267BE9871D060BF4003DCCE4 /* LaunchScreen.storyboard */; };
 		267BE9941D060BF4003DCCE4 /* RfbMoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BE9931D060BF4003DCCE4 /* RfbMoviesTests.m */; };
 		267BE99F1D060BF4003DCCE4 /* RfbMoviesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 267BE99E1D060BF4003DCCE4 /* RfbMoviesUITests.m */; };
+		26D1E9721D07672F007B4705 /* JMMovieIDs.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1E9711D07672F007B4705 /* JMMovieIDs.m */; };
+		26D1E9761D07675D007B4705 /* JMMovieImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1E9751D07675D007B4705 /* JMMovieImage.m */; };
+		26D1E97A1D07677A007B4705 /* JMMoviePoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1E9791D07677A007B4705 /* JMMoviePoster.m */; };
+		26D1E97D1D076B71007B4705 /* NSObject+NSDictionaryRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1E97C1D076B71007B4705 /* NSObject+NSDictionaryRepresentation.m */; };
+		26D1E9821D077426007B4705 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1E9811D077426007B4705 /* MovieCell.m */; };
+		26D1E9881D077524007B4705 /* RfbBoldLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1E9871D077524007B4705 /* RfbBoldLabel.m */; };
+		26D1E98B1D077532007B4705 /* RfbRegularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1E98A1D077532007B4705 /* RfbRegularLabel.m */; };
+		26D1E98E1D077578007B4705 /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1E98D1D077578007B4705 /* UIFont+Extension.m */; };
+		26D1E9931D0775A0007B4705 /* RfbThinLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1E9921D0775A0007B4705 /* RfbThinLabel.m */; };
 		26F2535F1D0613180080E397 /* RfbMoviesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F2535E1D0613180080E397 /* RfbMoviesVC.m */; };
 		26F253661D0613D50080E397 /* APIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F253651D0613D50080E397 /* APIRequest.m */; };
 		26F253831D0616B70080E397 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F253821D0616B70080E397 /* NSString+Extension.m */; };
 		26F253861D0616C60080E397 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F253851D0616C60080E397 /* NSDictionary+Extension.m */; };
 		26F2538C1D06249A0080E397 /* JMPopularMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F2538B1D06249A0080E397 /* JMPopularMovie.m */; };
-		2B7F3B8D5971B5070662DD3F /* libPods-RfbMovies.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B514021F7EE030DCC9B909D /* libPods-RfbMovies.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +55,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260345EC1D08C80800441C54 /* RfbMovieService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfbMovieService.h; sourceTree = "<group>"; };
+		260345ED1D08C80800441C54 /* RfbMovieService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RfbMovieService.m; sourceTree = "<group>"; };
+		260B836F1D0D675B0035194B /* RfbSearchMoviesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfbSearchMoviesVC.h; sourceTree = "<group>"; };
+		260B83701D0D675B0035194B /* RfbSearchMoviesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RfbSearchMoviesVC.m; sourceTree = "<group>"; };
+		260B83741D0D67860035194B /* SearchMovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchMovieCell.h; sourceTree = "<group>"; };
+		260B83751D0D67860035194B /* SearchMovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchMovieCell.m; sourceTree = "<group>"; };
+		260B837E1D0D6E870035194B /* JMSearchMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSearchMovie.h; sourceTree = "<group>"; };
+		260B837F1D0D6E870035194B /* JMSearchMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSearchMovie.m; sourceTree = "<group>"; };
+		260B83821D0D6F390035194B /* RfbMoviesRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfbMoviesRootVC.h; sourceTree = "<group>"; };
+		260B83831D0D6F390035194B /* RfbMoviesRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RfbMoviesRootVC.m; sourceTree = "<group>"; };
 		267BE9731D060BF4003DCCE4 /* RfbMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RfbMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267BE9771D060BF4003DCCE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		267BE9791D060BF4003DCCE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +80,24 @@
 		267BE99A1D060BF4003DCCE4 /* RfbMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RfbMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		267BE99E1D060BF4003DCCE4 /* RfbMoviesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RfbMoviesUITests.m; sourceTree = "<group>"; };
 		267BE9A01D060BF4003DCCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D1E9701D07672F007B4705 /* JMMovieIDs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMovieIDs.h; sourceTree = "<group>"; };
+		26D1E9711D07672F007B4705 /* JMMovieIDs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMovieIDs.m; sourceTree = "<group>"; };
+		26D1E9741D07675D007B4705 /* JMMovieImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMovieImage.h; sourceTree = "<group>"; };
+		26D1E9751D07675D007B4705 /* JMMovieImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMovieImage.m; sourceTree = "<group>"; };
+		26D1E9781D07677A007B4705 /* JMMoviePoster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMoviePoster.h; sourceTree = "<group>"; };
+		26D1E9791D07677A007B4705 /* JMMoviePoster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMoviePoster.m; sourceTree = "<group>"; };
+		26D1E97B1D076B71007B4705 /* NSObject+NSDictionaryRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSDictionaryRepresentation.h"; sourceTree = "<group>"; };
+		26D1E97C1D076B71007B4705 /* NSObject+NSDictionaryRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSDictionaryRepresentation.m"; sourceTree = "<group>"; };
+		26D1E9801D077426007B4705 /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		26D1E9811D077426007B4705 /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		26D1E9861D077524007B4705 /* RfbBoldLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfbBoldLabel.h; sourceTree = "<group>"; };
+		26D1E9871D077524007B4705 /* RfbBoldLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RfbBoldLabel.m; sourceTree = "<group>"; };
+		26D1E9891D077532007B4705 /* RfbRegularLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfbRegularLabel.h; sourceTree = "<group>"; };
+		26D1E98A1D077532007B4705 /* RfbRegularLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RfbRegularLabel.m; sourceTree = "<group>"; };
+		26D1E98C1D077578007B4705 /* UIFont+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
+		26D1E98D1D077578007B4705 /* UIFont+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
+		26D1E9911D0775A0007B4705 /* RfbThinLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfbThinLabel.h; sourceTree = "<group>"; };
+		26D1E9921D0775A0007B4705 /* RfbThinLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RfbThinLabel.m; sourceTree = "<group>"; };
 		26F2535D1D0613180080E397 /* RfbMoviesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfbMoviesVC.h; sourceTree = "<group>"; };
 		26F2535E1D0613180080E397 /* RfbMoviesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RfbMoviesVC.m; sourceTree = "<group>"; };
 		26F253631D0613970080E397 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
@@ -68,8 +110,8 @@
 		26F253851D0616C60080E397 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
 		26F2538A1D06249A0080E397 /* JMPopularMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPopularMovie.h; sourceTree = "<group>"; };
 		26F2538B1D06249A0080E397 /* JMPopularMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPopularMovie.m; sourceTree = "<group>"; };
-		7B514021F7EE030DCC9B909D /* libPods-RfbMovies.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RfbMovies.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1945552EB77EB070943F02 /* Pods-RfbMovies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RfbMovies.release.xcconfig"; path = "Pods/Target Support Files/Pods-RfbMovies/Pods-RfbMovies.release.xcconfig"; sourceTree = "<group>"; };
+		EEEC057BE89D91850BC1123F /* Pods_RfbMovies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RfbMovies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D4D23B79C4E344A2DF9B80 /* Pods-RfbMovies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RfbMovies.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RfbMovies/Pods-RfbMovies.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B7F3B8D5971B5070662DD3F /* libPods-RfbMovies.a in Frameworks */,
+				21B314BCCAA31405DDF2530E /* Pods_RfbMovies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +141,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		260345EA1D08C7E100441C54 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				260345EB1D08C7EA00441C54 /* MovieService */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		260345EB1D08C7EA00441C54 /* MovieService */ = {
+			isa = PBXGroup;
+			children = (
+				260345EC1D08C80800441C54 /* RfbMovieService.h */,
+				260345ED1D08C80800441C54 /* RfbMovieService.m */,
+			);
+			name = MovieService;
+			sourceTree = "<group>";
+		};
+		260B836E1D0D67320035194B /* 0.2 - Search Movies Screen */ = {
+			isa = PBXGroup;
+			children = (
+				260B836F1D0D675B0035194B /* RfbSearchMoviesVC.h */,
+				260B83701D0D675B0035194B /* RfbSearchMoviesVC.m */,
+			);
+			name = "0.2 - Search Movies Screen";
+			sourceTree = "<group>";
+		};
+		260B83721D0D67620035194B /* MovieCell */ = {
+			isa = PBXGroup;
+			children = (
+				26D1E9801D077426007B4705 /* MovieCell.h */,
+				26D1E9811D077426007B4705 /* MovieCell.m */,
+			);
+			name = MovieCell;
+			sourceTree = "<group>";
+		};
+		260B83731D0D676B0035194B /* SearchMovieCell */ = {
+			isa = PBXGroup;
+			children = (
+				260B83741D0D67860035194B /* SearchMovieCell.h */,
+				260B83751D0D67860035194B /* SearchMovieCell.m */,
+			);
+			name = SearchMovieCell;
+			sourceTree = "<group>";
+		};
+		260B83771D0D6D8E0035194B /* JMMovieSearch */ = {
+			isa = PBXGroup;
+			children = (
+				260B837E1D0D6E870035194B /* JMSearchMovie.h */,
+				260B837F1D0D6E870035194B /* JMSearchMovie.m */,
+			);
+			name = JMMovieSearch;
+			sourceTree = "<group>";
+		};
+		260B83811D0D6EFE0035194B /* 0 - Movies Root Screen */ = {
+			isa = PBXGroup;
+			children = (
+				260B83821D0D6F390035194B /* RfbMoviesRootVC.h */,
+				260B83831D0D6F390035194B /* RfbMoviesRootVC.m */,
+				26F2538E1D0627250080E397 /* 0.1 - Movies List Screen */,
+				260B836E1D0D67320035194B /* 0.2 - Search Movies Screen */,
+			);
+			name = "0 - Movies Root Screen";
+			sourceTree = "<group>";
+		};
 		267BE96A1D060BF4003DCCE4 = {
 			isa = PBXGroup;
 			children = (
@@ -126,10 +232,13 @@
 			children = (
 				267BE9791D060BF4003DCCE4 /* AppDelegate.h */,
 				267BE97A1D060BF4003DCCE4 /* AppDelegate.m */,
-				26F2535C1D0612E80080E397 /* ViewControllers */,
-				26F253801D06169E0080E397 /* Categories */,
-				26F2536C1D0616060080E397 /* Models */,
+				260345EA1D08C7E100441C54 /* Services */,
 				26F253611D06134B0080E397 /* Helper Classes */,
+				26F2536C1D0616060080E397 /* Models */,
+				26F253801D06169E0080E397 /* Categories */,
+				26D1E9831D07743D007B4705 /* UIObjects */,
+				26D1E97F1D07740D007B4705 /* Cells */,
+				26F2535C1D0612E80080E397 /* ViewControllers */,
 				267BE97F1D060BF4003DCCE4 /* Main.storyboard */,
 				267BE9851D060BF4003DCCE4 /* Assets.xcassets */,
 				267BE9871D060BF4003DCCE4 /* LaunchScreen.storyboard */,
@@ -167,10 +276,101 @@
 			path = RfbMoviesUITests;
 			sourceTree = "<group>";
 		};
+		26D1E96F1D076715007B4705 /* JMMovieIDs */ = {
+			isa = PBXGroup;
+			children = (
+				26D1E9701D07672F007B4705 /* JMMovieIDs.h */,
+				26D1E9711D07672F007B4705 /* JMMovieIDs.m */,
+			);
+			name = JMMovieIDs;
+			sourceTree = "<group>";
+		};
+		26D1E9731D07673A007B4705 /* JMMovieImage */ = {
+			isa = PBXGroup;
+			children = (
+				26D1E9741D07675D007B4705 /* JMMovieImage.h */,
+				26D1E9751D07675D007B4705 /* JMMovieImage.m */,
+			);
+			name = JMMovieImage;
+			sourceTree = "<group>";
+		};
+		26D1E9771D076767007B4705 /* JMMoviePoster */ = {
+			isa = PBXGroup;
+			children = (
+				26D1E9781D07677A007B4705 /* JMMoviePoster.h */,
+				26D1E9791D07677A007B4705 /* JMMoviePoster.m */,
+			);
+			name = JMMoviePoster;
+			sourceTree = "<group>";
+		};
+		26D1E97E1D076B92007B4705 /* NSObject Extension */ = {
+			isa = PBXGroup;
+			children = (
+				26D1E97B1D076B71007B4705 /* NSObject+NSDictionaryRepresentation.h */,
+				26D1E97C1D076B71007B4705 /* NSObject+NSDictionaryRepresentation.m */,
+			);
+			name = "NSObject Extension";
+			sourceTree = "<group>";
+		};
+		26D1E97F1D07740D007B4705 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				260B83731D0D676B0035194B /* SearchMovieCell */,
+				260B83721D0D67620035194B /* MovieCell */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		26D1E9831D07743D007B4705 /* UIObjects */ = {
+			isa = PBXGroup;
+			children = (
+				26D1E9901D07758F007B4705 /* RfbThinLabel */,
+				26D1E9851D077461007B4705 /* RfbBoldLabel */,
+				26D1E9841D077449007B4705 /* RfbRegularLabel */,
+			);
+			name = UIObjects;
+			sourceTree = "<group>";
+		};
+		26D1E9841D077449007B4705 /* RfbRegularLabel */ = {
+			isa = PBXGroup;
+			children = (
+				26D1E9891D077532007B4705 /* RfbRegularLabel.h */,
+				26D1E98A1D077532007B4705 /* RfbRegularLabel.m */,
+			);
+			name = RfbRegularLabel;
+			sourceTree = "<group>";
+		};
+		26D1E9851D077461007B4705 /* RfbBoldLabel */ = {
+			isa = PBXGroup;
+			children = (
+				26D1E9861D077524007B4705 /* RfbBoldLabel.h */,
+				26D1E9871D077524007B4705 /* RfbBoldLabel.m */,
+			);
+			name = RfbBoldLabel;
+			sourceTree = "<group>";
+		};
+		26D1E98F1D07757A007B4705 /* UIFont Extension */ = {
+			isa = PBXGroup;
+			children = (
+				26D1E98C1D077578007B4705 /* UIFont+Extension.h */,
+				26D1E98D1D077578007B4705 /* UIFont+Extension.m */,
+			);
+			name = "UIFont Extension";
+			sourceTree = "<group>";
+		};
+		26D1E9901D07758F007B4705 /* RfbThinLabel */ = {
+			isa = PBXGroup;
+			children = (
+				26D1E9911D0775A0007B4705 /* RfbThinLabel.h */,
+				26D1E9921D0775A0007B4705 /* RfbThinLabel.m */,
+			);
+			name = RfbThinLabel;
+			sourceTree = "<group>";
+		};
 		26F2535C1D0612E80080E397 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				26F2538E1D0627250080E397 /* 0 - Movies List Screen */,
+				260B83811D0D6EFE0035194B /* 0 - Movies Root Screen */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -204,6 +404,8 @@
 		26F253801D06169E0080E397 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				26D1E98F1D07757A007B4705 /* UIFont Extension */,
+				26D1E97E1D076B92007B4705 /* NSObject Extension */,
 				26F253881D0616FE0080E397 /* NSString Extension */,
 				26F253871D0616EF0080E397 /* NSDictionary Extension */,
 			);
@@ -240,18 +442,22 @@
 		26F2538D1D0624A20080E397 /* JSONModels */ = {
 			isa = PBXGroup;
 			children = (
+				260B83771D0D6D8E0035194B /* JMMovieSearch */,
+				26D1E9771D076767007B4705 /* JMMoviePoster */,
+				26D1E9731D07673A007B4705 /* JMMovieImage */,
+				26D1E96F1D076715007B4705 /* JMMovieIDs */,
 				26F253891D06246D0080E397 /* JMPopularMovie */,
 			);
 			name = JSONModels;
 			sourceTree = "<group>";
 		};
-		26F2538E1D0627250080E397 /* 0 - Movies List Screen */ = {
+		26F2538E1D0627250080E397 /* 0.1 - Movies List Screen */ = {
 			isa = PBXGroup;
 			children = (
 				26F2535D1D0613180080E397 /* RfbMoviesVC.h */,
 				26F2535E1D0613180080E397 /* RfbMoviesVC.m */,
 			);
-			name = "0 - Movies List Screen";
+			name = "0.1 - Movies List Screen";
 			sourceTree = "<group>";
 		};
 		AA13AC9E1F2B323936138913 /* Pods */ = {
@@ -266,7 +472,7 @@
 		E966E9A81DFDE7E85BC20870 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7B514021F7EE030DCC9B909D /* libPods-RfbMovies.a */,
+				EEEC057BE89D91850BC1123F /* Pods_RfbMovies.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -454,13 +660,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				26F253861D0616C60080E397 /* NSDictionary+Extension.m in Sources */,
+				26D1E9761D07675D007B4705 /* JMMovieImage.m in Sources */,
+				26D1E98B1D077532007B4705 /* RfbRegularLabel.m in Sources */,
 				267BE97B1D060BF4003DCCE4 /* AppDelegate.m in Sources */,
+				26D1E97A1D07677A007B4705 /* JMMoviePoster.m in Sources */,
+				260B83841D0D6F390035194B /* RfbMoviesRootVC.m in Sources */,
+				260345EE1D08C80800441C54 /* RfbMovieService.m in Sources */,
 				267BE9781D060BF4003DCCE4 /* main.m in Sources */,
 				26F2535F1D0613180080E397 /* RfbMoviesVC.m in Sources */,
 				26F253661D0613D50080E397 /* APIRequest.m in Sources */,
+				260B83711D0D675B0035194B /* RfbSearchMoviesVC.m in Sources */,
+				26D1E9721D07672F007B4705 /* JMMovieIDs.m in Sources */,
+				26D1E9931D0775A0007B4705 /* RfbThinLabel.m in Sources */,
+				260B83761D0D67860035194B /* SearchMovieCell.m in Sources */,
 				26F2538C1D06249A0080E397 /* JMPopularMovie.m in Sources */,
+				26D1E98E1D077578007B4705 /* UIFont+Extension.m in Sources */,
+				26D1E97D1D076B71007B4705 /* NSObject+NSDictionaryRepresentation.m in Sources */,
+				260B83801D0D6E870035194B /* JMSearchMovie.m in Sources */,
+				26D1E9881D077524007B4705 /* RfbBoldLabel.m in Sources */,
 				267BE9841D060BF4003DCCE4 /* RfbMovies.xcdatamodeld in Sources */,
 				26F253831D0616B70080E397 /* NSString+Extension.m in Sources */,
+				26D1E9821D077426007B4705 /* MovieCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

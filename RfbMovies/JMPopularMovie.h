@@ -7,7 +7,16 @@
 //
 
 #import <JSONModel/JSONModel.h>
+#import "JMMovieIDs.h"
+#import "JMMovieImage.h"
+
+@protocol JMPopularMovie @end
 
 @interface JMPopularMovie : JSONModel
+
+@property(nonatomic,strong) NSString *title;
+@property(nonatomic,strong) NSString *year;
+@property(nonatomic,strong) JMMovieIDs *ids;
+@property(nonatomic,strong) JMMovieImage <Optional>*images;
 
 @end

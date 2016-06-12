@@ -21,6 +21,12 @@ PODS:
   - JSONModel (1.2.0)
   - ObjectiveSugar (1.1.0)
   - PAPreferences (0.5)
+  - ReactiveCocoa (2.2.4):
+    - ReactiveCocoa/Core (= 2.2.4)
+    - ReactiveCocoa/no-arc (= 2.2.4)
+  - ReactiveCocoa/Core (2.2.4):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.2.4)
   - Realm (1.0.0):
     - Realm/Headers (= 1.0.0)
   - Realm/Headers (1.0.0)
@@ -38,6 +44,7 @@ DEPENDENCIES:
   - JSONModel
   - ObjectiveSugar
   - PAPreferences
+  - ReactiveCocoa (= 2.2.4)
   - Realm
   - SDVersion
   - SDWebImage
@@ -51,10 +58,11 @@ SPEC CHECKSUMS:
   JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
   ObjectiveSugar: a6a25f23d657c19df0a0b972466d5b5ca9f5295c
   PAPreferences: 9f0ffb1e67174a0df001af9d3320166ceb9ee6f5
+  ReactiveCocoa: 78d9d1057f6e2595a67285b5adb0c90d0fc2237c
   Realm: e15cd8e7c11d3e576f628ba0b7cb855269b4991c
   SDVersion: c036f7890279d188c17f5701b9feea0d93b9f8ee
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
 
-PODFILE CHECKSUM: 310e7707433290380277325abcb03987193c1cfd
+PODFILE CHECKSUM: 83d0fb73db28e5b4c596a7d78170d6189deab39b
 
 COCOAPODS: 1.0.1

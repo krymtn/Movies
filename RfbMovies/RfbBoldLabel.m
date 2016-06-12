@@ -18,4 +18,19 @@
 }
 */
 
+- (void)awakeFromNib{
+    [super awakeFromNib];
+    self.font = [UIFont helveticaBoldWithSize:self.font.pointSize];
+}
+
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code
+    }
+    return self;
+}
+
+
 @end

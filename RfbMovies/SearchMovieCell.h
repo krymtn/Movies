@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JMSearchMovie.h"
 
 @interface SearchMovieCell : UITableViewCell
 
+@property(nonatomic,weak) IBOutlet RfbRegularLabel *lblTitle;
+@property(nonatomic,weak) IBOutlet RfbBoldLabel *lblYear;
+
+
+@property(nonatomic,strong) JMSearchMovie *searchMovie;
 @end
